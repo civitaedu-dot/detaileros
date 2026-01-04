@@ -1,13 +1,15 @@
-import './globals.css';
+import './globals.css'
+import { ReactNode } from 'react'
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export const metadata = {
+  title: 'DetailerOS',
+  description: 'SaaS para Estéticas Automotivas'
+}
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR">
       <body>{children}</body>
     </html>
-  );
+  )
 }
