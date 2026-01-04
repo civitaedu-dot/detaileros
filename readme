@@ -1,1 +1,8 @@
+/src
+  /app
+    layout.tsx
+    page.tsx
+    globals.css
+  /lib
+    supabase.ts
 
