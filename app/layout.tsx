@@ -1,9 +1,4 @@
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Meu SaaS",
-  description: "Bem-vindo ao meu SaaS",
-};
+import './globals.css';
 
 export default function RootLayout({
   children,
