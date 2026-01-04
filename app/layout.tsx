@@ -3,7 +3,7 @@ import { ReactNode } from 'react'
 
 export const metadata = {
   title: 'DetailerOS',
-  description: 'SaaS para Estéticas Automotivas'
+  description: 'SaaS para Estéticas Automotivas',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
